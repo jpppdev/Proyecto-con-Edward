@@ -19,8 +19,8 @@
     /* ===================TEXT===================== */
 
     --semantic-text-primary: var(--color-gray-900);
-    /* color principal de lectura, titulos, texto base del documento */
-    --semantic-text-socondary: var(--color-gray-700);
+    /* color principal de lectura, títulos, texto base del documento */
+    --semantic-text-secondary: var(--color-gray-700);
     /* texto menos dominante */
     --semantic-text-muted: var(--color-gray-500);
     /* texto deshabilitado por ejemplo */
