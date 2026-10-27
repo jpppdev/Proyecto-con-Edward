@@ -4,7 +4,7 @@
     export const authRepository = {
     async findByEmail(userEmail) {
         const query = `
-        SELECT id, user_name, user_email, user_password, is_active
+        SELECT id, user_name, user_email, user_password AS password, is_active
         FROM users
         WHERE user_email = $1
         LIMIT 1;
